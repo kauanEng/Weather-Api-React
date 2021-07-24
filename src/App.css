@@ -1,0 +1,97 @@
+body {
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.current-weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 40px;
+}
+
+header {
+  display: flex;
+  justify-content:center;
+}
+
+
+.form-control {
+  margin-right: 10px;
+  width: 200px;
+  height: 40px;
+}
+
+form {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  padding-top:20px;
+  color: white;
+}
+
+.descricao {
+  display: flex;
+  padding-top: 30px;
+  padding: 0;
+}
+
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+
+  font-size: 40px;
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 12px;
+}
+
+.forecast {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+li {
+  border: 1px solid black;
+}
+
+ li {
+  display: flex;
+  flex-direction: row;
+  width: 337px;
+  background-color: #1d3557;
+  border-radius: 10px;
+  height: 47px;
+  margin: 6px;
+}
+
+.temp {
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.dia_vento {
+  margin-left: 230px;
+}
+
+.dia_temp {
+  margin-left: 10px;
+}
+
